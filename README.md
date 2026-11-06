@@ -75,7 +75,7 @@ Issues and PRs welcome — especially new entries for `troubleshooting.md` from 
 ## Author
 
 **Alaeddine Theljani** — Full-Stack Developer & Software Architect (Spring Boot | Angular) · OCP Java 21 · PhD candidate in cybersecurity · IT trainer
-[LinkedIn](https://www.linkedin.com/in/<your-linkedin-handle>) · [GitHub](https://github.com/alaeddineth)
+[LinkedIn](https://www.linkedin.com/in<theljani-alaeddine-963bb7169) · [GitHub](https://github.com/alaeddineth)
 
 ## License
 
