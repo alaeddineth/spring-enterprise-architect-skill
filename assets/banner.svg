@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132a4a"/>
+    </linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7aa7ff"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="627" fill="url(#bg)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="60" y="80" fill="#7aa7ff" font-size="20" letter-spacing="3">OPEN-SOURCE CLAUDE SKILL</text>
+    <text x="60" y="140" fill="#ffffff" font-size="50" font-weight="bold">Spring Enterprise Architect</text>
+    <text x="60" y="184" fill="#c9d6ee" font-size="23">Java 21 · Spring Boot · Angular · Oracle — playbooks from real banking systems</text>
+
+    <!-- diagram -->
+    <g font-size="17" fill="#ffffff" text-anchor="middle">
+      <rect x="60" y="250" width="190" height="56" rx="10" fill="#1d3557" stroke="#4f7cc9"/><text x="155" y="284">Internal apps</text>
+      <rect x="60" y="330" width="190" height="56" rx="10" fill="#1d3557" stroke="#4f7cc9"/><text x="155" y="364">Core modules</text>
+      <rect x="60" y="410" width="190" height="56" rx="10" fill="#1d3557" stroke="#4f7cc9"/><text x="155" y="444">Partners (DMZ)</text>
+
+      <rect x="330" y="310" width="190" height="96" rx="12" fill="#264b85" stroke="#7aa7ff" stroke-width="2"/>
+      <text x="425" y="352" font-weight="bold">API Gateway</text><text x="425" y="378" font-size="15" fill="#c9d6ee">JWT verify · routing</text>
+
+      <rect x="600" y="240" width="200" height="50" rx="10" fill="#1f6f54" stroke="#3fbf8f"/><text x="700" y="271">Auth service</text>
+      <rect x="600" y="300" width="200" height="50" rx="10" fill="#1f6f54" stroke="#3fbf8f"/><text x="700" y="331">Customer API</text>
+      <rect x="600" y="360" width="200" height="50" rx="10" fill="#1f6f54" stroke="#3fbf8f"/><text x="700" y="391">Back-office API</text>
+      <rect x="600" y="420" width="200" height="50" rx="10" fill="#7a3b1f" stroke="#ff9a5c"/><text x="700" y="451">Transactional core</text>
+
+      <ellipse cx="925" cy="355" rx="70" ry="22" fill="#3a2a5c" stroke="#a78bfa"/>
+      <rect x="855" y="355" width="140" height="70" fill="#3a2a5c" stroke="none"/>
+      <path d="M855,355 v70 a70,22 0 0 0 140,0 v-70" fill="#3a2a5c" stroke="#a78bfa"/>
+      <ellipse cx="925" cy="355" rx="70" ry="22" fill="#4a3870" stroke="#a78bfa"/>
+      <text x="925" y="405">Oracle</text>
+    </g>
+    <g stroke="#7aa7ff" stroke-width="2" fill="none" marker-end="url(#ar)">
+      <path d="M250,278 L328,335"/><path d="M250,358 L328,358"/><path d="M250,438 L328,385"/>
+      <path d="M520,340 L598,265"/><path d="M520,350 L598,325"/><path d="M520,365 L598,385"/><path d="M520,380 L598,445"/>
+      <path d="M800,325 L853,350"/><path d="M800,385 L853,385"/><path d="M800,445 L853,415"/>
+    </g>
+    <g font-size="15" fill="#c9d6ee">
+      <text x="1018" y="270">✓ Microservice vs</text><text x="1036" y="292">monolith matrix</text>
+      <text x="1018" y="335">✓ Legacy migration</text>
+      <text x="1018" y="378">✓ Reporting &amp; search</text>
+      <text x="1018" y="421">✓ Prod debugging</text>
+      <text x="1018" y="464">✓ DAT &amp; ADR</text>
+    </g>
+    <line x1="60" y1="545" x2="1140" y2="545" stroke="#2c4a75"/>
+    <text x="60" y="588" fill="#ffffff" font-size="24" font-weight="bold">Alaeddine Theljani</text>
+    <text x="320" y="588" fill="#9fb3d6" font-size="19">Full-Stack Developer &amp; Architect · Spring Boot | Angular · OCP Java 21</text>
+  </g>
+</svg>
